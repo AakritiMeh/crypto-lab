@@ -183,7 +183,7 @@ int main()
     }
 
     // Encrypt plaintext using Hill cipher
-    char plaintext[] = "MEAT";
+    char plaintext[] = "MEET";
     int plaintext_matrix[MATRIX_SIZE][MATRIX_SIZE];
     int ciphertext_matrix[MATRIX_SIZE][MATRIX_SIZE];
     char ciphertext[BUFFER_SIZE];
