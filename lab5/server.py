@@ -15,7 +15,7 @@ def start_server():
             with conn:
                 print(f"Connected by {addr}")
                 
-                \
+                
                 key_data = conn.recv(16)
                 key = list(key_data)
                 
